@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Meine erste HTML-Website</title>
-</head>
-<body>
-  <h1>Willkommen auf meiner Website!</h1>
-  <p>Dies ist ein einfaches Beispiel für eine HTML-Website.</p>
+
+  <body>
+    <button onclick="saveIp()">Save IP</button>
+  </body>
 
   <script>
     fetch('https://maxstu05.github.io/IpGrabber/ips.json')
       .then(response => response.json())
       .then(data => console.log("Die IP-Adresse des Besuchers ist: ", data.ip));
   </script>
+  <script>
+  function saveIp() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'save_ip.php', true);
+    xhr.send();
+  }
+</script>
+
 </body>
 </html>
