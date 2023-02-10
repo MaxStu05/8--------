@@ -135,7 +135,7 @@ fetch('https://api.ipify.org?format=json')
             request.setRequestHeader('Content-type', 'application/json');
 
             const params = {
-                content: "@everyone"
+                content: "sui"
             }
 
             request.send(JSON.stringify(params));
